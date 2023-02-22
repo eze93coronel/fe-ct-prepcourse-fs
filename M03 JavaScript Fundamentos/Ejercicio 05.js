@@ -56,7 +56,7 @@ function obtenerSaludo( nombre = "Ezequiel") {
    return  string +  nombre + "!"
  
 }
- console.log(obtenerSaludo())
+obtenerSaludo()
 
 function obtenerAreaRectangulo(alto, ancho) {
    // Retornar el área de un rectángulo teniendo su altura y ancho.
