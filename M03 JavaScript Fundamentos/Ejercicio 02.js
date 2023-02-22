@@ -4,34 +4,43 @@
 function devolverString(string) {
    // Debe retornar un string.
    // Tu código:
+  return string 
 }
-
+devolverString('hola como va !!!')
 // ⛔️ "X" e "Y" son números.
 
 function suma(x, y) {
    // Retorna el resultado de su suma.
    // Tu código:
+   return x + y 
 }
+suma(20 + 30)
+
 
 function resta(x, y) {
    // Retorna el resultado de la resta.
    // Tu código:
+   return x - y
 }
-
+resta( 10 - 70)
 function divide(x, y) {
    // Retorna el resultado de su división.
    // Tu código:
+  return x / y
 }
-
+divide(20 / 70)
 function multiplica(x, y) {
    // Retorna el resultado de su multiplicación.
    // Tu código:
+   return x * y
 }
-
+multiplica(10 * 30)
 function obtenerResto(x, y) {
    // Obten el resto de la división de "x" entre "y".
    // Tu código:
+   return x % y
 }
+obtenerResto(200 % 9)
 
 /*⚠️ NO MODIFIQUES NADA DEBAJO DE ESTO ⚠️*/
 module.exports = {
